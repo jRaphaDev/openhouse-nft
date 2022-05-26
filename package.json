@@ -1,0 +1,26 @@
+{
+  "name": "openhouse-nft",
+  "version": "1.0.0",
+  "description": "NFT Imob",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blockchain",
+    "nft",
+    "imob"
+  ],
+  "author": "Raphael Freitas",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.6"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1"
+  }
+}
